@@ -29,3 +29,6 @@ sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FRAPPE", "ERPNEXT", "FIRSTPARTY",
 [tool.bench.dev-dependencies]
 parameterized = "~=0.8.1"
 time-machine = "~=3.2.0"
+
+[tool.bench.frappe-dependencies]
+erpnext = ">=16.0.0,<17.0.0"
