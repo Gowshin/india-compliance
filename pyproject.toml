@@ -31,4 +31,5 @@ parameterized = "~=0.8.1"
 time-machine = "~=3.2.0"
 
 [tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
 erpnext = ">=16.0.0,<17.0.0"
